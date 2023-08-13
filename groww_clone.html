@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="Element/groww-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groww Clone</title>
+  <link rel="stylesheet" href="groww_clone.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat+Alternates:wght@100&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <img class="logo" src="Element/logo-light-groww.png" alt="app_logo">
+      <li>Explore</li>
+      <li>Investment</li>
+      <div class="searchBox">
+        <form action="">
+          <img class="search_icon" src="Element/search_icon.png" alt="search_icon">
+          <input class="search_input" type="search" placeholder="What are you looking for today?">
+        </form>
+      </div>
+      <img class="nwa" src="Element/notification_icon.png" alt="notification-icon">
+      <img class="nwa" src="Element/wallet_icon.png" alt="wallet-icon2">
+      <img class="nwa" src="Element/add_too_cart_icon.png" alt="add-to-cart-icon2">
+      <img class="login" src="Element/3135823.png" alt="login_icon">
+      <img class="profile" src="Element/down.png" alt="down">
+      <div class="smu">
+        <ul>
+          <li>Stocks</li>
+          <li>Mutual Funds</li>
+          <li>US Stocks</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="box" id="index" style="font-size: 22px;">Index</div>
+    <div class="box" id="All Index" style="font-size: 16px; color: #0ABB92;">All Index</div>
+    <div class="indexName">
+      <div class="indexs">
+        <p>NIFTY50</p>
+        <li>19,526.55</li>
+        <li style="color: #0ABB92;">+207.00(1.05%)</li>
+      </div>
+      <div class="indexs">
+        <p>SENSEX</p>
+        <li>65,782.78</li>
+        <li style="color: #0ABB92;">+676.53(1.02%)</li>
+      </div>
+      <div class="indexs">
+        <p>BANKNIFTY</p>
+        <li>44,995.70</li>
+        <li style="color: #0ABB92;">+593.80(1.31%)</li>
+      </div>
+    </div>
+  </div>
+
+  <div class="stocks">
+    <div class="mng">
+      <h3>Most Bought on Groww</h3>
+    </div>
+    <!-- mbgc-> Most Bought on Groww company -->
+    <div class="mbgc">
+      <div class="mbgcompany">
+        <div class="mbg_comi1">
+          <img src="Element/Dilip Buildcon.png" alt="DLP">
+          <div class="mbg_comN1">
+            <h3>Dilip Buildcon</h3>
+          </div>
+          <div class="mbgcom1P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>254.50</p>
+            <p id="todayPC1">-18.10(6.65%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mbgcompany">
+        <div class="mbg_comi2">
+          <img src="Element/IRFC.png" alt="IRFC">
+          <div class="mbg_comN2">
+            <h3>IRFC</h3>
+          </div>
+          <div class="mbgcom2P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>44.70</p>
+            <p id="todayPC2">+5(12.59%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mbgcompany">
+        <div class="mbg_comi3">
+          <img src="Element/Ujjivan Small Finance Bank.png" alt="USFB">
+          <div class="mbg_comN3">
+            <h3>Ujjivan Small Fin</h3>
+          </div>
+          <div class="mbgcom3P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>50.05</p>
+            <p id="todayPC3">+2.20(4.60%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mbgcompany">
+        <div class="mbg_comi4">
+          <img src="Element/tata motors.png" alt="tatamotors">
+          <div class="mbg_comN4">
+            <h3>Tata Motors</h3>
+          </div>
+          <div class="mbgcom4P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>618.95</p>
+            <p id="todayPC4">- 3.70(0.59%)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mp->more Products -->
+    <div class="mp">
+      <h3>More Products</h3>
+    </div>
+    <!-- mpI-> more products item -->
+    <div class="mpI">
+      <div class="mpIN">
+        <div class="mpINP1">
+          <img src="Element/F&O.png" alt="">
+          <h3>F&O</h3>
+        </div>
+      </div>
+      <div class="mpIN">
+        <div class="mpINP2">
+          <img src="Element/IPO.png" alt="IPO">
+          <h3>IPO</h3>
+        </div>
+      </div>
+      <div class="mpIN">
+        <div class="mpIN3">
+          <div class="mpINP3">
+            <img src="Element/intraday.png" alt="intraday">
+            <h3>Intraday</h3>
+          </div>
+        </div>
+      </div>
+      <div class="mpIN">
+        <div class="mpINP4">
+          <img src="Element/screener.png" alt="screener">
+          <h3>Screener</h3>
+        </div>
+      </div>
+    </div>
+    <!-- tg-> Top Gainers-->
+    <div class="tg">
+      <h3>Top Gainers</h3>
+      <p>See more</p>
+    </div>
+    <!-- mt-> market type -->
+    <div class="mt">
+      <div class="mtN">
+        Large
+      </div>
+      <div class="mtN">
+        Mid
+      </div>
+      <div class="mtN">
+        Small
+      </div>
+    </div>
+    <div class="mtc">
+      <div class="mtcompany">
+        <div class="mt_comi1">
+          <img src="Element/Lupin_Logo.png" alt="Lupin">
+          <div class="mt_comN1">
+            <h3>Lupin</h3>
+          </div>
+          <div class="mtcom1P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>1,035.35</p>
+            <p id="mttodayPC1">40.75(4.10%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtcompany">
+        <div class="mt_comi2">
+          <img src="Element/Gland Pharma.webp" alt="Gland Pharma">
+          <div class="mt_comN2">
+            <h3>Gland Pharma</h3>
+          </div>
+          <div class="mtcom2P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>1,329.00</p>
+            <p id="mttodayPC2">40.25(3.12%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtcompany">
+        <div class="mt_comi3">
+          <img src="Element/Ambuja-Cement.png" alt="Ambuja-Cement">
+          <div class="mt_comN3">
+            <h3>Ambuja Cement</h3>
+          </div>
+          <div class="mtcom3P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>475.35</p>
+            <p id="mttodayPC3">13.45(2.92%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtcompany">
+        <div class="mt_comi4">
+          <img src="Element/ACC.png" alt="ACC">
+          <div class="mt_comN4">
+            <h3>ACC</h3>
+          </div>
+          <div class="mtcom4P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>2,028.15</p>
+            <p id="mttodayPC4">56.90(2.89%)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sn-> Stock News -->
+    <div class="sn">
+      <h3>Stocks in News</h3>
+      <div class="news">
+        <img src="Element/document-icon.png" alt="document-icon">
+        <p>News</p>
+      </div>
+    </div>
+    <div class="snc">
+      <div class="sncompany">
+        <div class="sn_comi1">
+          <img src="Element/Kansai Nerolac.png" alt="Kansai Nerolac">
+          <div class="sn_comN1">
+            <h3>Kansai Nerolac</h3>
+          </div>
+          <div class="sncom1P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>320.50</p>
+            <p id="sntodayPC1">-16.50(4.90%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="sncompany">
+        <div class="sn_comi2">
+          <img src="Element/Welspun India.png" alt="Welspun India">
+          <div class="sn_comN2">
+            <h3>Welspun India</h3>
+          </div>
+          <div class="sncom2P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>114.65</p>
+            <p id="sntodayPC2">5.10(4.66%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="sncompany">
+        <div class="sn_comi3">
+          <img src="Element/png-transparent-sun-pharmaceutical-bangladesh-limitesun-pharmaceutical.png"
+            alt="sun-pharmaceutical">
+          <div class="sn_comN3">
+            <h3>Sun Pharmaceutical</h3>
+          </div>
+          <div class="sncom3P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>1,141.00</p>
+            <p id="sntodayPC3">5.75(0.51%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="sncompany">
+        <div class="sn_comi4">
+          <img src="Element/Yasho Industries.png" alt="Yasho Industries">
+          <div class="sn_comN4">
+            <h3>Yasho Industries</h3>
+          </div>
+          <div class="sncom4P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>1,740.20</p>
+            <p id="sntodayPC4">10.45(0.60%)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tl-> top losers -->
+    <div class="tl">
+      <h3>Top Losers</h3>
+      <p>See more</p>
+    </div>
+    <!-- mtl-> market type losers -->
+    <div class="mtl">
+      <div class="mtlN">
+        Large
+      </div>
+      <div class="mtlN">
+        Mid
+      </div>
+      <div class="mtlN">
+        Small
+      </div>
+    </div>
+    <!-- mtlc-> market type losers company -->
+    <div class="mtlc">
+      <div class="mtlcompany">
+        <div class="mtl_comi1">
+          <img src="Element/Vedanta.png" alt="Vedanta">
+          <div class="mtl_comN1">
+            <h3>Vedanta</h3>
+          </div>
+          <div class="mtlcom1P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>254.05</p>
+            <p id="mtltodayPC1">-18.10(6.65%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtlcompany">
+        <div class="mtl_comi2">
+          <img src="Element/Interglobe Aviation.png" alt="Interglobe Aviation">
+          <div class="mtl_comN2">
+            <h3>Interglobe Aviation</h3>
+          </div>
+          <div class="mtlcom2P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>2447.75</p>
+            <p id="mtltodayPC2">-117.55(4.58%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtlcompany">
+        <div class="mtl_comi3">
+          <img src="Element/HDFC Asset Management Company.png" alt="HDFC Asset Management Company">
+          <div class="mtl_comN3">
+            <h3>HDFC Asset Mgmt Co</h3>
+          </div>
+          <div class="mtlcom3P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>2,399.95</p>
+            <p id="mtltodayPC3">-91.55(3.67%)</p>
+          </div>
+        </div>
+      </div>
+      <div class="mtlcompany">
+        <div class="mtl_comi4">
+          <img src="Element/UPL.png" alt="UPL">
+          <div class="mtl_comN4">
+            <h3>UPL</h3>
+          </div>
+          <div class="mtlcom4P">
+            <img src="Element/rupee.png" alt="rupee">
+            <p>600.45</p>
+            <p id="mtltodayPC4">-18.70(3.02%)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ts-> Top Sector -->
+    <div class="ts">
+      <h3>Top Losers</h3>
+      <p>See more</p>
+    </div>
+    <!-- tsn-> Top Sector Name -->
+    <div class="tsn">
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Banking</h3>
+          <p>37</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Energy</h3>
+          <p>94</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Healthcare</h3>
+          <p>216</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>FMCG</h3>
+          <p>215</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Automobile</h3>
+          <p>130</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Tele-Communication</h3>
+          <p>44</p>
+        </div>
+      </div>
+      <div class="tsName">
+        <div class="ts1">
+          <h3>Media & Entertainment</h3>
+          <p>88</p>
+        </div>
+      </div>
+    </div>
+    <!-- tmc-> top by market cap -->
+    <div class="tmc">
+      <h3>Top by Market Cap</h3>
+      <p>See more</p>
+    </div>
+    <!-- tmct-> top by market cap table-->
+    <div class="tmct">
+      <div class="tmctd">
+        <h3>Company</h3>
+        <div class="tmctmw">
+          <p>Market Price</p>
+          <p>Watchlist</p>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="tmctd1">
+        <p style="font-size: 17px">Reliance Industries</p>
+        <img class="graph" src="Element/Reliance_Industries.png" alt="Reliance_Industries">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">2,501.70</p>
+          </div>
+          <p style="color: #0ABB92">25.40(1.02%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+
+      <div class="line1"></div>
+
+      <div class="tmctd2">
+        <p style="font-size: 17px">TCS</p>
+        <img class="graph1" src="Element/TCS.png" alt="TCS">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">3,445.05</p>
+          </div>
+          <p style="color: #0ABB92">45.50(1.39%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line2"></div>
+
+      <div class="tmctd3">
+        <p style="font-size: 17px">HDEC Bank</p>
+        <img class="graph2" src="Element/HDFC_Bank.png" alt="TCS">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">1,640.65</p>
+          </div>
+          <p style="color: #0ABB92">12.35(0.76%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line3"></div>
+
+      <div class="tmctd4">
+        <p style="font-size: 17px">ICICI Bank</p>
+        <img class="graph3" src="Element/ICICI_Bank.png" alt="ICICI">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">968.15</p>
+          </div>
+          <p style="color: #0ABB92">3.65(0.34%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line4"></div>
+
+      <div class="tmctd5">
+        <p style="font-size: 17px">Hindustan Unilever</p>
+        <img class="graph4" src="Element/Hindustan_Unileve.png" alt="Hindustan_Unilever">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">455.00</p>
+          </div>
+          <p style="color: #d55438">-1.00(0.23%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line5"></div>
+
+      <div class="tmctd6">
+        <p style="font-size: 17px">ITC</p>
+        <img class="graph5" src="Element/ITC.png" alt="ITC">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">2,548.00</p>
+          </div>
+          <p style="color: #d55438">-3.25(0.11%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line6"></div>
+
+      <div class="tmctd7">
+        <p style="font-size: 17px">Infosys</p>
+        <img class="graph6" src="Element/Infosys.png" alt="Infosys">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">1,380.50</p>
+          </div>
+          <p style="color: #0ABB92">16.15(1.19%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line7"></div>
+
+      <div class="tmctd8">
+        <p style="font-size: 17px">SBI</p>
+        <img class="graph7" src="Element/SBI.png" alt="SBI">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">575.60</p>
+          </div>
+          <p style="color: #d55438">-14.60(2.46%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line8"></div>
+
+      <div class="tmctd9">
+        <p style="font-size: 17px">Bharti Airtel</p>
+        <img class="graph8" src="Element/Bharti_Airtel.png" alt="SBI">
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">887.75</p>
+          </div>
+          <p style="color: #0ABB92">16.05(1.85%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line9"></div>
+
+      <div class="tmctd10">
+        <p style="font-size: 17px">HDFC-Amalgamated</p>
+        <div class="priceRI">
+          <!-- tRl-> today reliance indrustri -->
+          <div class="tRI">
+            <img style="height: 15px;" src="Element/rupee.png" alt="rupee">
+            <p style="
+            font-size: 18px;
+            position: absolute;
+            left: 17px;
+            top: -2px;">2,729.95</p>
+          </div>
+          <p>0.00(0.00%)</p>
+        </div>
+        <img class="add" src="Element/add.png" alt="add">
+      </div>
+      <div class="line10"></div>
+
+      <div class="tmctd11">
+        <p style="color: #0ABB92;"><</p>
+        <p style="text-decoration: underline #0ABB92;color: #0ABB92;">1</p>
+        <p>2</p>
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+        <p style="color: #0ABB92;">></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="investdetails">
+    <!-- tri-> todays return index -->
+    <div class="tri">
+      <h3>Your Investment</h3>
+      <p style="color: #0ABB92;">Dashboard</p>
+    </div>
+    <!-- tr-> todays return-->
+    <div class="tr">
+      <div class="return">
+        <p style="font-size: 20px; color: #0ABB92;"><img src="Element/rupee.png" alt="rupee">100</p>
+        <p style="font-size: 14px; color: #b8b8b8;">Total Returns</p>
+      </div>
+      <div class="total">
+        <p style="
+          font-size: 20px;
+          margin-left: 33px;"><img src="Element/rupee.png" alt="rupee">815</p>
+        <p style="font-size: 14px; color: #b8b8b8;">Current Value</p>
+      </div>
+    </div>
+    <div class="watchlist">
+      <!-- wt-> watchlist title -->
+      <div class="wt">
+        <h3>All watchlists</h3>
+        <p>View all</p>
+      </div>
+      <!-- wl-> watchlist -->
+      <div class="wl">
+        <!-- wli-> watchlist item -->
+        <div class="wli">
+          <h3>My Watchlist</h3>
+          <p>7 items</p>
+        </div>
+        <img id="down_arrow" src="Element/down.png" alt="down arrow">
+        <!-- awl-> add watchlist -->
+        <div class="awl">
+          <img src="Element/add.png" alt="add">
+          <p>Create new watchlist</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="fi">
+      <div class="f1">
+        <img src="Element/logo-light-groww.png" alt="logo">
+        <p>Vaishnavi Tech Park, 3rd & 4th Floor</p>
+        <p>Sarjapur Main Road, Bellandur</p>
+        <p>Bengaluru - 560103</p>
+        <p>Contact Us</p>
+        <!-- sm-> social media -->
+        <div class="sm">
+          <img src="Element/facebook.png" alt="facebook">
+          <img src="Element/twitter.png" alt="twitter">
+          <img style="margin-left: -18px;" src="Element/YouTube.png" alt="YouTube">
+          <img style="margin-left: -17px;" src="Element/Instagram.png" alt="Instagram">
+          <img style="margin-left: -20px;" src="Element/inkedin.png" alt="inkedin">
+          <img src="Element/telegram.png" alt="telegram">
+        </div>
+      </div>
+      <div class="f1">
+        <div class="products">
+          <h3>PRODUCTS</h3>
+          <p>Stocks</p>
+          <p>Futures & Options</p>
+          <p>Mutual Funds</p>
+          <p>Us Stocks</p>
+          <p>Credit</p>
+        </div>
+      </div>
+      <div class="f1">
+        <div class="groww">
+          <h3>GROWW</h3>
+          <p>About Us</p>
+          <p>Pricing</p>
+          <p>Blog</p>
+          <p>Media & Press</p>
+          <p>Careers</p>
+          <p>Help and Support</p>
+        </div>
+      </div>
+      <div class="f1">
+        <div class="quickLinks">
+          <h3>QUICK LINKS</h3>
+          <p>AMC Mutual Funds</p>
+          <p>Calculators</p>
+          <p>Glossary</p>
+          <p>Open Demat Account</p>
+          <p>Groww Digest</p>
+          <p>Sitemap</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="finalfooter">
+      <img src="Element/copyWrite.png" alt="Copyright-Symbol">
+      <p style="margin-left: -20px;">Ranajit Das</p>
+      <p>Soumyadip Pal</p>
+      <p>Aditya Sinha</p>
+      <p>Tiasa Ash</p>
+      <p>Sukanya Sen</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>
